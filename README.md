@@ -1,4 +1,5 @@
 # Django_celery
+
 In this repository I have provided just simple task which occures periodically by using module Django-celery.
 I have written the code for creating text file  which says the time at every 10 seconds.
 
@@ -12,8 +13,11 @@ All the requirements are provided in requirements.txt
 In this file we can call add () function from the shell in the terminal using 
 python manage.py shell
 
+We can call this function by 2 ways .. 
+- ansynchronous calling : add.delay()
+- synchronous calling : add()
 
-........for all the task ......
+........ for all the task ......
 
 Here we have to run two commands in two different terminal windows 
 1. for redis worker
