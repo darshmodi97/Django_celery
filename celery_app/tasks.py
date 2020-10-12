@@ -18,8 +18,8 @@ def add(a,b):
 
 @task()
 def create_file():
-    file = open('/home/<your username>/test.txt','a')
-    file.write("\n hello darsh the time is :" +str(datetime.now()))
+    file = open('/home/acquaint/Desktop/test.txt','a')
+    file.write("hello darsh the time is :" +str(datetime.now())+"\n")
     file.close()
     logger.info("File will be created in just minute")
     
